@@ -1,0 +1,18 @@
+.search-btn {
+  padding: 7px 7px;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .1s;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: dodgerblue;
+}

@@ -1,0 +1,46 @@
+.movie-card {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  gap: 0.5rem;
+  margin: 10px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.movie-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.movie-card img,
+.movie-card > div {
+  width: 95%;
+}
+
+.movie-card > div > h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-card button:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.movie-card button {
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  color: dodgerblue;
+  cursor: pointer;
+  transition: .1s;
+}
