@@ -1,12 +1,15 @@
+//IMPORT OS STYLES
 import "./App.css";
+
+//IMPORT OF COMPONENTS
 import Navbar from "./components/Navbar/Navbar";
-import MovieCard from "./components/MovieCard/MovieCard";
+import Trendings from "./pages/Trendings/Trendings";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <MovieCard />
+      <Trendings />
     </div>
   );
 }

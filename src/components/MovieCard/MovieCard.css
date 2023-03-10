@@ -18,6 +18,10 @@
   gap: 0.2rem;
 }
 
+.movie-card > img {
+  border-radius: 3px;
+}
+
 .movie-card img,
 .movie-card > div {
   width: 95%;
@@ -42,5 +46,20 @@
   border-radius: 5px;
   color: dodgerblue;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
+}
+
+.movie-card .type span {
+  text-transform: capitalize;
+}
+
+.movie-card .type,
+.movie-card .vote {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.movie-card .vote svg {
+  color: rgb(236, 177, 50);
 }

@@ -2,3 +2,27 @@
   margin: 0 auto;
   max-width: 1100px;
 }
+
+.flex {
+  display: flex;
+}
+
+.justified {
+  justify-content: center;
+}
+
+.started {
+  justify-content: start;
+}
+
+.wraped {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.end-padding {
+  padding-bottom: 200px;
+}
