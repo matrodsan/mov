@@ -1,7 +1,8 @@
 .movie-card {
   width: 200px;
+  height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -33,20 +34,24 @@
   text-overflow: ellipsis;
 }
 
-.movie-card button:hover {
+.movie-card a:hover {
   background-color: dodgerblue;
   color: white;
 }
 
-.movie-card button {
+.movie-card a {
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   background-color: white;
-  font-weight: bold;
   border: 1px solid dodgerblue;
   border-radius: 5px;
   color: dodgerblue;
   cursor: pointer;
   transition: 0.1s;
+  margin: 5px 0;
 }
 
 .movie-card .type span {

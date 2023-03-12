@@ -8,6 +8,12 @@ nav img {
   height: 40%;
 }
 
+nav a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .nav-container {
   padding: 0 10px;
   height: 100%;

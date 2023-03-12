@@ -15,7 +15,7 @@ const Trendings = () => {
   return (
     <>
       <Container customClass="flex justified">
-        <h1 className="trendings-title">Trending</h1>
+        <h1 className="trendings-title">Trendings</h1>
       </Container>
       <Container customClass="flex justified wraped end-padding">
         {trendings.length > 0 ? (

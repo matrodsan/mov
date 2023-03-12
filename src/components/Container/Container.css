@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.aligned {
+  align-items: center;
+}
+
 .started {
   justify-content: start;
 }

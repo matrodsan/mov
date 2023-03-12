@@ -1,0 +1,12 @@
+.movie-info img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 20px;
+}
