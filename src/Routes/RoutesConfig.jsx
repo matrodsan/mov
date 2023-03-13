@@ -14,7 +14,7 @@ const RoutesConfig = () => {
       <Route element={<App />}>
         <Route path="/" element={<Trendings />} />
         <Route path="/search/:query" element={<Search />} />
-        <Route path="/movie/:id" element={<Movie />} />
+        <Route path="/:type/:id" element={<Movie />} />
       </Route>
     </Routes>
   );

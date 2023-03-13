@@ -18,7 +18,7 @@ const MovieCard = (props) => {
         <p className="vote">
           <AiFillStar /> {movie.vote_average}
         </p>
-        <a href={`/movie/${movie.id}`}>Detalhes</a>
+        <a href={`/${movie.media_type}/${movie.id}`}>Detalhes</a>
       </div>
     </div>
   );

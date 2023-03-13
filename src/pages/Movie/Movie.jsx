@@ -6,16 +6,18 @@ import getMovie from "../../api/getMovie";
 import loading from "../../assets/gif.gif";
 
 const Movie = () => {
-  const { id } = useParams();
+  const { id, type } = useParams();
   const imgUrlBase = import.meta.env.VITE_TMDB_IMG_URL;
   const [movie, setMovie] = useState({});
-
+  
+  console.log(type)
+  
   useEffect(() => {
-    getMovie(id, setMovie);
+    getMovie(id, type, setMovie);
   }, []);
 
   return (
-    <Container customClass="flex aligned column">
+    <Container customClass="flex aligned column end-padding">
       {movie ? (
         <div className="movie-info">
           <img src={`${imgUrlBase}${movie.poster_path}`} alt="Poster" />
