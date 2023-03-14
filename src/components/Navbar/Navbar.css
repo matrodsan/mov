@@ -5,7 +5,7 @@ nav {
 }
 
 nav img {
-  height: 40%;
+  height: 30px;
 }
 
 nav a {
@@ -22,4 +22,38 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.links a:hover {
+  transform: translateY(-3px);
+  color: white;
+}
+
+@media (max-width: 650px) {
+  nav {
+    height: 110px;
+  }
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links {
+    height: 50%;
+  }
 }

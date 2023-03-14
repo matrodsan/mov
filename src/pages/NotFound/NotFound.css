@@ -1,0 +1,12 @@
+.not-found {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.not-found svg {
+    font-size: 20pt;
+}

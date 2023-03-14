@@ -4,6 +4,7 @@ import getTrendings from "../../api/getTrendings";
 import React, { useState, useEffect } from "react";
 import Container from "../../components/Container/Container";
 import MovieCard from "../../components/MovieCard/MovieCard";
+import { HiTrendingUp } from "react-icons/hi";
 
 const Trendings = () => {
   const [trendings, setTrendings] = useState({});
@@ -14,8 +15,11 @@ const Trendings = () => {
 
   return (
     <>
-      <Container customClass="flex justified">
-        <h1 className="trendings-title">Trendings</h1>
+      <Container customClass="flex">
+        <h2 className="trendings-title">
+          <HiTrendingUp />
+          Trendings
+        </h2>
       </Container>
       <Container customClass="flex justified wraped end-padding">
         {trendings.length > 0 ? (

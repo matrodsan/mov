@@ -1,3 +1,8 @@
 .trendings-title {
-    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }

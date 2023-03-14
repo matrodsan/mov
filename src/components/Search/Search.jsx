@@ -11,7 +11,7 @@ const Search = () => {
   };
 
   return (
-    <div className="search-bar">
+    <form className="search-bar">
       <input
         type="text"
         placeholder="Search a movie"
@@ -21,7 +21,7 @@ const Search = () => {
       <SearchButton query={searchValue}>
         <FaSearch />
       </SearchButton>
-    </div>
+    </form>
   );
 };
 
